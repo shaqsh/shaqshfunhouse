@@ -9,5 +9,5 @@ a {
 }
 
 a:focus {
-    color: hsl(13, 91%, 78%);
+    outline-color: hsl(13, 91%, 78%);
 }
