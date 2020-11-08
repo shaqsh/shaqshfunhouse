@@ -9,5 +9,26 @@ a {
 }
 
 a:focus {
-    outline-color: hsl(13, 91%, 78%);
+    outline-color: #faaa94;
+}
+
+.theme-button {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    font-size: 12px;
+    border-radius: 2px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #af6b58;
+    border: 1px solid #af6b58;
+  }
+
+.theme-button:hover,
+.theme-button:focus {
+    color: #ffffff;
+    background-color: #556052;
 }
