@@ -1,5 +1,4 @@
 .page {
-    font-family: Roboto;
     color: #556052;
     background-color: #f2efea;  
 }
@@ -31,4 +30,34 @@ a:focus {
 .theme-button:focus {
     color: #ffffff;
     background-color: #556052;
+}
+
+
+
+/*----------------alt-theme--------------*/
+
+
+
+.alt-theme {
+    color: #39311d;
+    background-color: #ffdd93;
+}
+
+.alt-theme a {
+    color: #7e7474;
+}
+
+.alt-theme a:focus {
+    color: #ffffff;
+}
+
+.alt-theme.theme-button {
+    color: #7e7474;
+    border: 1px solid #7e7474;
+}
+
+.alt-theme.theme-button:hover,
+.alt-theme.theme-button:focus {
+    color: #39311d;
+    background-color: #ffdd93;
 }
