@@ -1,0 +1,12 @@
+.page {
+    color: #556052;
+    background-color: #f2efea;  
+}
+
+a {
+    color: #af6b58;
+}
+
+a:focus {
+    color: hsl(13, 91%, 78%);
+}
